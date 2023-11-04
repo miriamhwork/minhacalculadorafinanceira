@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora Financeira da Miriam</title>
+</head>
+<body>
+    <h1>Calculadora by Miriam</h1>
+    <hr>
+    <p>Bem-vindo(a) à calculadora financeira desenvolvida pela Miriam.</p>
+    <p>Aqui você pode definir uma meta financeira, um valor para sua economia mensal e calcular em quanto tempo levará para atingir seu objetivo.</p>
+    <p>Para isso é muito simples. Basta digitar valores em reais nos campos abaixo.</p>
+    <form method="post" action="/calcular">
+        <label for="meta">Qual é a sua meta financeira? (R$):</label>
+        <input type="text" id="meta" name="meta" required>
+        <br>
+        <br>
+        <label for="economia_mensal">Quanto você consegue economizar mensalmente? (R$):</label>
+        <input type="text" id="economia_mensal" name="economia_mensal" required>
+        <br>
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>

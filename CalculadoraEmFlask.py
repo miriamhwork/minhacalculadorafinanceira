@@ -1,9 +1,6 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
-# route -> hashtagtreinamentos.com/
-# função -> o que você quer exibir naquela página
-# template
 
 def calcular_tempo_necessario(meta, economia_mensal):
     if economia_mensal <= 0:
@@ -38,4 +35,3 @@ def calcular():
 if __name__ == "__main__":
     app.run(debug=True)
 
-    # servidor do heroku
